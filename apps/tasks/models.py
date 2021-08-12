@@ -10,4 +10,4 @@ class Task(models.Model):
     owner = models.ForeignKey(User, on_delete=models.CASCADE, related_name='tasks', null=False)
     body = models.TextField()
     is_finished = models.BooleanField(default=False)
-    estimated_finish_time = models.DateTimeField()
+    deadline = models.DateTimeField()
