@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
     'apps.tasks',
+    'apps.posts',
 ]
 
 ROOT_URLCONF = 'toDoList.urls'
